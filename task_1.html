@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 15px;
+            font-family: Arial, sans-serif;
+            background-color: #f2f7fb;
+            color: #333333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+            color: #1f4f78;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        caption {
+            padding: 15px;
+            color: white;
+            background-color: #1f4f78;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            border: 1px solid #cbd9e6;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        th {
+            width: 28%;
+            color: #1f4f78;
+            background-color: #eaf3fb;
+        }
+
+        .photo-cell {
+            width: 160px;
+            text-align: center;
+        }
+
+        .profile-photo {
+            width: 115px;
+            height: 135px;
+            object-fit: cover;
+            border: 3px solid #1f4f78;
+            border-radius: 8px;
+        }
+
+        ul,
+        ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #1f4f78;
+            font-weight: bold;
+        }
+
+        .link-button {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 11px 18px;
+            color: white;
+            background-color: #1f4f78;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .link-button:hover {
+            background-color: #163a59;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 8px;
+            }
+
+            th,
+            td {
+                padding: 8px;
+                font-size: 13px;
+            }
+
+            .photo-cell {
+                width: 90px;
+            }
+
+            .profile-photo {
+                width: 70px;
+                height: 85px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <h1> Profile</h1>
+
+        <table>
+            <caption>Personal Information</caption>
+
+            <tr>
+                <th>Name</th>
+                <td>Kovelanraj A/L Mani Rajan</td>
+                <td class="photo-cell">
+                    <img
+                        src="KO2_OK.jpg"
+                        alt="My profile photo"
+                        class="profile-photo"
+                    >
+                </td>
+            </tr>
+
+            <tr>
+                <th>Date of Birth</th>
+                <td colspan="2">20/09/2003</td>
+            </tr>
+
+            <tr>
+                <th>Religion</th>
+                <td colspan="2">Hindu</td>
+            </tr>
+
+            <tr>
+                <th>Race</th>
+                <td colspan="2">    <i>India</i></td>
+            </tr>
+
+            <tr>
+                <th rowspan="4">Address</th>
+                <td>Street</td>
+                <td>No 9 , Jln Taman Meru 10</td>
+            </tr>
+
+            <tr>
+                <td>Town</td>
+                <td>Taman Meru 2B</td>
+            </tr>
+
+            <tr>
+                <td>District</td>
+                <td>Ipoh</td>
+            </tr>
+
+            <tr>
+                <td>State</td>
+                <td>Perak</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3">Contact</th>
+                <td>Mobile Phone</td>
+                <td>011-61587415</td>
+            </tr>
+
+            <tr>
+                <td>Social Media</td>
+                <td>
+                    <a
+                        href="https://instagram.com/kr.raj20?mdxt=bGoycnNqZGJvbzFm"
+                        target="_blank"
+                    >
+                        Instagram: @kr.raj20
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Website</td>
+                <td>
+                    <a
+                        href="https://github.com/KovelanLeo/Kovelan"
+                        target="_blank"
+                    >
+                        https://github.com/KovelanLeo/Kovelan
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Course and Institution</th>
+                <td colspan="2">
+                    Bachelor In Computer Science(Information Security) With Honors<br>
+                    Universiti Tun Hussein Onn Malaysia (UTHM)
+                </td>
+            </tr>
+
+            <tr>
+                <th>Programming Skills</th>
+                <td colspan="2">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Cisco Packet Tracer</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Hobbies</th>
+                <td colspan="2">
+                    <ul>
+                        <li>Dancing</li>
+                        <li>Playing sports</li>
+                        <li>Listening Musics as well</li>
+                        <li>Developing Skills</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <th>2026 Wishlist</th>
+                <td colspan="2">
+                    <ol>
+                        <li>Improve my programming skills</li>
+                        <li>Complete my studies successfully</li>
+                        <li>Developing my self-esteem & skills</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+
+        <div class="center">
+            <a href="task_2.html" class="link-button">
+                Go to Registration Form
+            </a>
+        </div>
+    </main>
+</body>
+</html>
